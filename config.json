@@ -2,6 +2,19 @@
   "name": "Otávio Takejame (Otakejame)",
   "job": "Fullstack Dev",
   "github": "otakejame",
+  "bg" : "https://images.unsplash.com/photo-1545529468-42764ef8c85f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
+  "favorites" : [
+    {
+      "title" : "Manual do Mundo",
+      "url" :  "https://www.youtube.com/@manualdomundo/",
+      "image" : "https://yt3.googleusercontent.com/-pJxUP1wezj8SREiWAyEzlusc9_PIiMp-QBa5OAmx8w2iHvczS_Krl-MAPYIidgcFy8lpI2L4ow=s88-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "title" : "Jovem Nerd",
+      "url" :  "https://www.youtube.com/@jovemnerd",
+      "image" : "https://yt3.googleusercontent.com/ytc/AMLnZu9pDOp93R9V0cp_CodoiMk8FM60-46FkdDasQ1i=s88-c-k-c0x00ffffff-no-rj"
+    }
+  ],
   "playlists": {
       "jogos": [
           {
