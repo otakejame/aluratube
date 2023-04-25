@@ -10,8 +10,8 @@ function HomePage() {
     const [valorDoFiltro, setValorDoFiltro] = React.useState("");
     const [playlists, setPlaylists] = React.useState({});     // config.playlists
 
-    React.useEffect(() => {
-        console.log("useEffect");
+     React.useEffect(() => {
+ /*       
         service
             .getAllVideos()
             .then((dados) => {
@@ -28,7 +28,10 @@ function HomePage() {
 
                 setPlaylists(novasPlaylists);
             });
-    }, []);
+*/
+            setPlaylists(config.playlists);
+    }, []); 
+
 
     return (
         <>
