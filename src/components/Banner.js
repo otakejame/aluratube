@@ -7,7 +7,9 @@ const StyledBanner = styled.div`
   background-position: 50% 50%;
   background-image : url(
       ${
-        ({imagemDeFundo})=> {
+        ({imagemDeFundo,...todoOResto})=> {
+
+          console.log(todoOResto);
           return imagemDeFundo
         } 
       }
