@@ -29,6 +29,7 @@ function HomePage() {
                 setPlaylists(novasPlaylists);
             });
     }, []);
+
     return (
         <>
             <div style={{
@@ -78,10 +79,8 @@ const StyledHeader = styled.div`
 const StyledBanner = styled.div`
     background-color: blue;
     background-image: url(${({ bg }) => bg});
-    background-position: center bottom;
-    background-size: contain;
     /* background-image: url(${config.bg}); */
-    height: 530px;
+    height: 230px;
 `;
 function Header() {
     return (
